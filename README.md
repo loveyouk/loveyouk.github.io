@@ -1,2 +1,0 @@
-# loveyouk.github.io
-blog
