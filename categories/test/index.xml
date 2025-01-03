@@ -6,8 +6,7 @@
         <description>Recent content in Test on LOVEYOUK</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>loveyouk</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>loveyouk</copyright><atom:link href="https://example.com/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Chinese Test</title>
         <link>https://example.com/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
