@@ -7,6 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>loveyouk</copyright><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ptest</title>
+        <link>https://example.com/p/ptest/</link>
+        <pubDate>Sun, 05 Jan 2025 10:59:18 +0800</pubDate>
+        
+        <guid>https://example.com/p/ptest/</guid>
+        <description>&lt;img src="https://example.com/helena-hertz-wWZzXlDpMog-unsplash01.jpg" alt="Featured image of post Ptest" /&gt;&lt;h1 id=&#34;hwehadn&#34;&gt;hwehadn
+&lt;/h1&gt;&lt;p&gt;这是一个测试文档&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/tiger.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;test2&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Chinese Test</title>
         <link>https://example.com/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -584,7 +604,17 @@ $$</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;Hello，欢迎来到我的blog。这里存放一些SAS 技术日志，个人旅拍的图片，and一些碎碎念。&lt;/br&gt;
+感谢你的访问，希望能对你有所帮助，如有疑问，欢迎留言讨论，THX。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>我的相册</title>
+        <link>https://example.com/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</guid>
+        <description>&lt;p&gt;这是一个相册&lt;/p&gt;
 </description>
         </item>
         

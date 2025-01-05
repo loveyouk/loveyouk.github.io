@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>loveyouk</copyright>
-        <lastBuildDate>Sat, 04 Jan 2025 04:44:06 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 Jan 2025 12:54:57 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
         <link>https://example.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -64,7 +64,8 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;Hello，欢迎来到我的blog。这里存放一些SAS 技术日志，个人旅拍的图片，and一些碎碎念。&lt;/br&gt;
+感谢你的访问，希望能对你有所帮助，如有疑问，欢迎留言讨论，THX。&lt;/p&gt;
 </description>
         </item>
         
