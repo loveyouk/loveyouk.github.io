@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on LOVEYOUK</title>
-        <link>https://loveyouk.github.io/page/</link>
+        <link>https://loveyouk.top/page/</link>
         <description>Recent content in Pages on LOVEYOUK</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>loveyouk</copyright>
-        <lastBuildDate>Thu, 09 Jan 2025 14:21:58 +0000</lastBuildDate><atom:link href="https://loveyouk.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Jan 2025 14:27:19 +0000</lastBuildDate><atom:link href="https://loveyouk.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://loveyouk.github.io/archives/</link>
+        <link>https://loveyouk.top/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://loveyouk.github.io/archives/</guid>
+        <guid>https://loveyouk.top/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://loveyouk.github.io/links/</link>
+        <link>https://loveyouk.top/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://loveyouk.github.io/links/</guid>
+        <guid>https://loveyouk.top/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -52,18 +52,18 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://loveyouk.github.io/search/</link>
+        <link>https://loveyouk.top/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://loveyouk.github.io/search/</guid>
+        <guid>https://loveyouk.top/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://loveyouk.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://loveyouk.top/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://loveyouk.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://loveyouk.top/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;Hello，欢迎来到我的blog。这里存放一些SAS 技术日志，个人旅拍的图片，and一些碎碎念。&lt;/br&gt;
 感谢你的访问，希望能对你有所帮助，如有疑问，欢迎留言讨论，THX。&lt;/p&gt;
 </description>
