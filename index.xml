@@ -7,6 +7,119 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>loveyouk</copyright><atom:link href="https://loveyouk.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第一篇</title>
+        <link>https://loveyouk.github.io/p/%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
+        <pubDate>Mon, 06 Jan 2025 10:59:18 +0800</pubDate>
+        
+        <guid>https://loveyouk.github.io/p/%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
+        <description>&lt;img src="https://loveyouk.github.io/helena-hertz-wWZzXlDpMog-unsplash01.jpg" alt="Featured image of post 第一篇" /&gt;&lt;h1 id=&#34;begin&#34;&gt;Begin
+&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;这是2025年决定折腾blog,建站完成后的第一篇文章，来碎碎念记录一下
+blog采用了hugo+stack主题，对这块相关的原理和语言，不可以说是理论荒漠吧，至少是一窍不通。大部分都是参考网上的教程，这里感谢xxx和XXX两位大佬。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;搭建过程&#34;&gt;搭建过程
+&lt;/h2&gt;&lt;h3 id=&#34;下载&#34;&gt;下载
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hugo 可以访问官网，下载zzzz
+顺便去取theme页面下载stack主题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;本地搭建&#34;&gt;本地搭建
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;选择一个存储位置作为blog的存放目录&amp;lt;不要在桌面&amp;gt;
+1.hugo 新建站点 
+    cmd 进入该路径，输入 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      hugo new site blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;pre&gt;&lt;code&gt;    blog 可以替换为你想新建的站点目录
+    新建完成后可见站点目录（root目录，如有在ROOT下添加文件则在此目录下添加）
+2.hugo 本地测试
+    将hugo.exe文件复制进blog目录
+    CMD 进入该目录
+    将stack主题压缩包，解压至theme下
+    example文件夹下存放主题测试文件，将其中文件复制到root文件夹下直接覆盖
+    cmd 运行
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;pre&gt;&lt;code&gt;    note: 此处若提示远程文件无法访问或者下载，则需要挂载魔法
+    打开浏览器 访问 https:\\localhost:1313   &amp;lt;CMD窗口会提示&amp;gt;   即可查看
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;推送github及自动搭建&#34;&gt;推送github及自动搭建
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1.下载GIT，安装git就不多讲了讲一个坑，win系统下和linux系统下回车符号不一样
+有可能因为此原因导致本地元素正常加载，推送到github后加载资源异常
+&amp;lt;git add 时 会报错&amp;gt;
+解决方案：运行以下代码
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git config --global core.autocrlf false
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;pre&gt;&lt;code&gt;2.搭建推送仓库
+    登录Github
+    新建仓库
+    仓库设置
+    本地设置
+    推送本地文件到仓库
+3.搭建页面仓库
+    新建仓库
+    仓库设置
+    前面设置正确的话此处会由推送仓库部署到这里，需要等几分钟
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;域名&#34;&gt;域名
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1。注册域名
+2.添加解析记录
+3.等待1天
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;主题美化&#34;&gt;主题美化
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;此处参考XXXblog进行美化不在赘述
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;第一篇文章&#34;&gt;第一篇文章
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1.新建文章
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    hugo new post \testblog\test.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;pre&gt;&lt;code&gt;    会在content\post 目录下新建testblog文件夹，新建test.md文件
+2.编写文章
+    此处需要学习MARKDOWN语法，自行学习
+    随便打句话，
+    note: 关于图片和其他资源
+         图片等blog中引用的资源需要放在staic文件夹下才能加载，
+        如果使用图床则添加图片链接即可
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://loveyouk.github.io/20250106/cat.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IMGH1&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Ptest</title>
         <link>https://loveyouk.github.io/p/ptest/</link>
         <pubDate>Sun, 05 Jan 2025 10:59:18 +0800</pubDate>
@@ -24,6 +137,15 @@
 	
 	
 &gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>我的相册</title>
+        <link>https://loveyouk.github.io/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</link>
+        <pubDate>Sun, 05 Jan 2025 10:59:18 +0800</pubDate>
+        
+        <guid>https://loveyouk.github.io/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</guid>
+        <description>&lt;p&gt;这是一个相册&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -606,15 +728,6 @@ $$</description>
         <guid>https://loveyouk.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;Hello，欢迎来到我的blog。这里存放一些SAS 技术日志，个人旅拍的图片，and一些碎碎念。&lt;/br&gt;
 感谢你的访问，希望能对你有所帮助，如有疑问，欢迎留言讨论，THX。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>我的相册</title>
-        <link>https://loveyouk.github.io/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://loveyouk.github.io/p/%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C/</guid>
-        <description>&lt;p&gt;这是一个相册&lt;/p&gt;
 </description>
         </item>
         
